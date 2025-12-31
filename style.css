@@ -1,0 +1,183 @@
+body {font-family: Arial;background: #f7f7f7;margin: 0;padding: 20px;}
+h1 {text-align: center;}
+#postSection {text-align: center;margin-bottom: 20px;}
+textarea {width: 80%;height: 60px;margin-bottom: 10px;border-radius: 8px;padding: 8px;}
+button {padding: 8px 16px;background: #007bff;color: white;border: none;border-radius: 6px;cursor: pointer;}
+.post {background: white;margin: 10px auto;padding: 10px;width: 80%;border-radius: 10px;box-shadow: 0 0 5px #ddd;}
+.auth-container {
+  width: 300px;
+  margin: 100px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+  text-align: center;
+}
+
+.auth-container input {
+  width: 90%;
+  padding: 8px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.auth-container button {
+  width: 95%;
+  padding: 8px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.auth-container button:hover {
+  background: #0056b3;
+}
+
+.auth-container a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #fff;
+  padding: 12px 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+  color: #1877f2;
+}
+
+.nav-links button {
+  background-color: #1877f2;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-left: 8px;
+  font-size: 14px;
+}
+
+.nav-links button:hover {
+  background-color: #145dbf;
+}
+
+/* Create Post */
+.create-post {
+  background-color: white;
+  width: 60%;
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.create-post textarea {
+  resize: none;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.create-post button {
+  align-self: flex-end;
+  background-color: #1877f2;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Feed */
+.feed {
+  width: 60%;
+  margin: 10px auto 50px auto;
+}
+
+.post {
+  background-color: white;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.post .user {
+  font-weight: bold;
+  color: #1877f2;
+  margin-bottom: 6px;
+}
+
+.post .content {
+  font-size: 15px;
+  color: #333;
+}
+
+/* Modals */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+  background-color: #fff;
+  width: 300px;
+  margin: 100px auto;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.modal-content input {
+  width: 90%;
+  margin: 8px 0;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.modal-content button {
+  width: 95%;
+  padding: 10px;
+  background-color: #1877f2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.link {
+  color: #1877f2;
+  cursor: pointer;
+}
